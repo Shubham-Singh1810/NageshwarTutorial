@@ -1,0 +1,290 @@
+@media only screen and (max-width:1400px){
+    html{
+        font-size: 55%;
+    }
+    .topic{
+        width: 50%;
+        font-size: 2rem;
+    }
+    .testimagebox{
+        margin-top: 4rem;
+    }
+    
+}
+@media only screen and (max-width:1000px){
+    .aboutcontant{
+         padding: 1rem;
+    }
+    .firststep{
+        font-size: 1.3rem;
+    }
+    .class11{
+        justify-content: space-between;
+        margin:0rem 1rem;
+    }
+    #class11{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    
+    
+}
+@media only screen and (max-width:900px){
+    .footer{
+        padding: 1rem 2rem;
+    }
+    .display{
+        display: none;
+    }
+    .topic{
+        width: 100%;
+        font-size: 1.8rem;
+    }
+    .responsivebox{
+        display: flex;
+    }
+    .box1, .box2, .box3, .box4{
+        width: 50%;
+    }
+    .boxcontainer{
+        flex-direction: column;
+        padding: .2rem;
+        margin: .2rem;
+    }
+    
+    
+}
+@media only screen and (max-width:800px){
+   .aboutimg {
+       height: 25vh;
+   }
+   .aboutcontant{
+       width: 40%;
+   }
+}
+@media only screen and (max-width:700px){
+    .navright ul{
+        margin: 0;
+        padding: 0;
+    }
+    .aboutimg {
+        height: 20vh;
+        
+    }
+    .aboutcontainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .aboutimg img {
+        height: 20vh;
+    }
+    
+    .coursebox{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .firststep{
+        width: 100%;
+    }
+    .footer{
+        font-size: 1rem;
+    }
+    .aboutcontant{
+        width: 100%;
+        padding: 1rem;
+    }
+    .aboutimg{
+        display: flex;
+        justify-content: space-around;
+        height: 25vh;
+    }
+    .aboutimg{
+        height: 20vh;
+    }
+    .display{
+        display: none;
+    }
+    .topic ol li {
+        margin: 1rem;
+        padding: 1rem;
+    }
+    
+}
+
+
+
+@media only screen and (max-width:550px){
+    .navright{
+        height: 24vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column-reverse;
+        
+        background-color: rgba(0, 0, 0, .5);
+        transition: top 1s ease;
+        display: none;
+        text-align: center;
+        border-bottom: solid white 2px;
+        border-bottom-left-radius:1rem ;
+        border-bottom-right-radius:1rem ;
+    }
+    
+    .mainfeatures{
+        font-size: 1rem;
+    }
+    .firststep{
+        font-size: 1rem;
+    }
+    .aboutcontainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #about h1{
+        font-size: 2rem;
+    }
+    .aboutcontant{
+        width: 100%;
+        padding: 1rem;
+    }
+    .aboutimg{
+        display: flex;
+        justify-content: space-around;
+        height: 25vh;
+    }
+    .aboutimg img{
+        height: 25vh;
+    }
+    .box1, .box2, .box3, .box4{
+        height: 25vh;
+        margin: 0;
+        padding: 0;
+    }
+    .navleft{
+        padding:0  1rem;
+    }
+    .navright ul li{
+        border-right:1px solid white ;
+    }
+    .navright ul li {
+        border-right: none ;
+        font-size: 2.2rem;
+    }
+
+    .navright ul{
+        padding: 0.5rem;
+    }
+    .navright .closemenu{
+        display: block;
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+    }
+    .closemenu{
+        display: block;
+        
+    }
+    .navright {
+        text-align: left;
+        height: 28vh;
+    }
+    nav .openmenu{
+        display: block; 
+        
+    }
+    .navright ul{
+        flex-direction: column;
+    }
+    
+    .navleft{
+        justify-content: space-between;
+        
+    }
+    .aboutcontant{
+        margin-right: 2rem;
+   }
+   .display{
+       display: none;
+   }
+   .footer{
+       padding: 1rem;
+       font-size: .8rem;
+   }
+}
+@media only screen and (max-width:400px){
+    
+
+    html{
+        font-size: 45%;
+    }
+    .brandname-1{
+        display: block;
+        font-size: 3rem;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .aboutimg{
+        height: 30vh;
+        
+    }
+    .aboutimg img{
+        height: 30vh;
+        width: 60%;
+    }
+    .aboutcontant{
+        font-size: 1.7rem;
+    }
+    .mainfeatures{
+        font-size: 1.5rem;
+    }
+    
+    .navleft{
+        text-align: justify;
+        padding-right: 2rem;
+    }
+        
+    .openmenu{
+        font-size: 3rem;
+    }
+    .phone{
+        font-size: 1.4rem;
+    }
+    .logo img{
+        height: 8rem;
+    }
+    .footerdisplay{
+        display: none;
+    }
+    .brandname , .name{
+        display: none;
+    }
+    .copyright{
+        font-size: .8rem;
+    }
+    .responsivebox{
+        flex-direction: column;
+    }
+    .boxcontainer{
+        width: 200%;
+    }
+    .slider{
+        height: 30rem;
+    }
+    .footer{
+        padding: .5rem;
+        font-size: .9rem;
+    }
+    .aboutcontant{
+        padding: 1rem;
+        font-size: 2.2rem;
+        /* text-align: center; */
+    }
+    .footer{
+        height: 20vh;
+        padding-top: 2rem;
+    }
+    
+    
+}
